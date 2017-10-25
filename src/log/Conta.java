@@ -1,9 +1,9 @@
 package log;
 
 public class Conta {
-    double saldo;
-    double porcentagem;
-    double porcentual;
+    protected double saldo;
+    protected double porcentagem;
+    protected double porcentual;
     
 //----------------metodos---------------------
     public void setSaldo(double saldo){
@@ -18,7 +18,7 @@ public class Conta {
     public void saca(double saldo){
         this.saldo-=saldo;
     }
-    public void atualizarConta(double porcentagem){
+    public void atualiza(double porcentagem){
         this.porcentagem = (this.saldo*porcentagem)/100;
         porcentual = porcentagem;
         this.saldo+=this.porcentagem;
