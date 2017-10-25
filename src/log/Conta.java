@@ -3,9 +3,7 @@ package log;
 public class Conta {
     double saldo;
     double porcentagem;
-    double porcentual;;
-    double corrente;
-    double poupanca;
+    double porcentual;
     
 //----------------metodos---------------------
     public void setSaldo(double saldo){
